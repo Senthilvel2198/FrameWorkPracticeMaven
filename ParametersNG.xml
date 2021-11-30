@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name = "Username" value="Senthil"/>
+<parameter name = "pass" value="Senthil123"/>
+<parameter name = "Username1" value="Soji"/>
+<parameter name = "pass1" value="Soji@123"/>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="org.pojo.TNG"/>
+    </classes>
+  </test> 
+</suite> 
