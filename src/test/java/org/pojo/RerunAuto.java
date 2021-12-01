@@ -19,6 +19,7 @@ public class RerunAuto {
 	@Test
 	private void tc3() {
 		System.out.println("Test 3");
+		Assert.assertTrue(true);
 	}
 	
 	@Test
