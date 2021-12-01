@@ -25,6 +25,7 @@ public class RerunAuto {
 	@Test
 	private void tc4() {
 		System.out.println("Test 4");
+		Assert.assertTrue(true);
 	}
 	
 	@Test
